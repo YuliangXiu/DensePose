@@ -74,7 +74,9 @@ def parse_args():
         type=str
     )
     parser.add_argument(
-        'im_or_folder', help='image or folder of images', default=None
+        '--im_or_folder', help='image or folder of images', 
+        default=None,
+        type=str
     )
     if len(sys.argv) == 1:
         parser.print_help()
