@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=1 python tools/infer_simple.py \
+CUDA_VISIBLE_DEVICES=0 python tools/infer_simple.py \
 --cfg configs/DensePose_ResNet101_FPN_s1x-e2e.yaml \
 --wts https://dl.fbaipublicfiles.com/densepose/DensePose_ResNet101_FPN_s1x-e2e.pkl \
 --output-dir ./results \
